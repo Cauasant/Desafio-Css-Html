@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 300; 400; 500; 700; 900 & display = swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+width: 100vw;
+height: 100vh;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  width: 600px;
+  height: 600px;
+}
+.container .content .perfil{
+  width: 70%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .content .perfil img{
+
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  border: 5px solid blue;
+}
+.container .content .perfil h1{
+  font-size: 20px;
+  text-align: center;
+  color: darkblue;
+  margin: 3px;
+}
+.container .content .perfil p{
+  font-size: 15px;
+  text-align: center;
+  margin: 3px;
+}
+
+.container .content .perfil .btn{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.container .content .perfil .btn button{
+  width: 200px;
+  padding: 8px;
+  border: 2px solid blue;
+  border-radius:20px;
+  margin: 4px;
+  font-size: 15px;
+  transition: 1s;
+  cursor: pointer;
+  
+}
+.container .content .perfil .btn button:hover{
+  background-color: blue;
+  color: white;
+}
+
+.container .content .coluna{
+  width: 30%;
+}
+.container .content .coluna .coluna1{
+  background-color:lightblue;
+  height: 197px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition:1s;
+  cursor: pointer;
+}
+.container .content .coluna .coluna1 span{
+  font-size: 20px;
+}
+.container .content .coluna .coluna1:hover{
+  background-color:blue;
+}
+
